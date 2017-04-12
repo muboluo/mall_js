@@ -1,14 +1,8 @@
 @charset "utf-8";
 
-.header_white {
-    height: 31px;
-}
-.left_area {
-    display:inline;
-    width: 100px;
-    float: left;
-}
-.right_area {
-    float: right;
-    display: inline;
+
+.middleWidth {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 }
