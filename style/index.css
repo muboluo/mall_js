@@ -6,13 +6,14 @@
     margin-left: auto;
     margin-right: auto;
 }
+
 .leftArea {
     float: left;
 }
+
 .rightArea {
     float: right;
 }
-
 
 /*top bar*/
 .topBar {
@@ -26,6 +27,10 @@
     padding-left: 19px;
 }
 
+.searchLayout {
+    background-color: #1D7AD9;
+    height: 73px;
+}
 
 
 
