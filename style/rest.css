@@ -10,6 +10,10 @@ th, td { /* table elements 表格元素 */
     padding: 0;
     outline: none;
 }
+a {
+    text-decoration: none;
+    color: #656565;
+}
 
 .clearfix:after {
     content: ".";
