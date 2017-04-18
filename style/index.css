@@ -39,9 +39,35 @@
     height: 73px;
 }
 .logoLayout {
-    width:auto;
-    vertical-align: middle;
+    height: 73px;
+    padding-top: 11px;
+    padding-left: 41px;
 }
+
+.searchBox {
+    width: 430px;
+    padding-top: 23px;
+    margin-left: 185px;
+}
+
+.searchText {
+    width: 350px;
+    height:35px;
+    padding: 0 5px;
+
+}
+
+.searchButton {
+    width: 70px;
+    height: 35px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei UI";
+    background-color: #FF8C00;
+    color: #FFFFFF;
+}
+
+
+
 
 
 

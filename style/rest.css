@@ -9,6 +9,7 @@ th, td { /* table elements 表格元素 */
     margin: 0;
     padding: 0;
     outline: none;
+    border:none;
 }
 a {
     text-decoration: none;
