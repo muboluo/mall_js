@@ -6,6 +6,7 @@
     margin-left: auto;
     margin-right: auto;
 }
+
 .leftArea {
     float: left;
 }
@@ -35,9 +36,11 @@
     background-color: #1D7AD9;
     height: 73px;
 }
+
 .searchLayout .middleWidth {
     height: 73px;
 }
+
 .logoLayout {
     height: 73px;
     padding-top: 11px;
@@ -52,9 +55,11 @@
 
 .searchText {
     width: 350px;
-    height:35px;
+    height: 35px;
     padding: 0 5px;
-
+    background-color: white;
+    line-height: 35px \9;
+    /* \9 代表所有的ie 浏览器*/
 }
 
 .searchButton {
@@ -65,6 +70,62 @@
     background-color: #FF8C00;
     color: #FFFFFF;
 }
+
+/**
+购物车
+ */
+.shopCar {
+
+    margin-top: 23px;
+    width: 145px;
+    margin-right: 59px;
+    height: 35px;
+    background-color: #FF8c00;
+}
+
+/**
+购物车 三个字
+ */
+.shopText {
+    font-size: 14px;
+    font-family: "Microsoft YaHei UI", "微软雅黑";
+    color: white;
+    height: 100%;
+    line-height: 35px;
+    width: 87px;
+    border-right: #e27a00 solid 1px;
+    background: url("../img/icon/icon_shop_cart.png") 10px center no-repeat;
+    text-indent: 40px;
+}
+
+/**
+购物车  数量
+ */
+.shopNum {
+    width: 27px;
+    font-size: 14px;
+    font-family: "Microsoft YaHei UI", "微软雅黑";
+    color: white;
+    height: 100%;
+    border-left: #ff9c01 solid 1px;
+    line-height: 35px;
+    background: url("../img/icon/icon_shop_cart_more.png") 33px center no-repeat;
+    text-align: right;
+    padding-right: 29px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

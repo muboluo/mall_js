@@ -9,13 +9,17 @@ th, td { /* table elements 表格元素 */
     margin: 0;
     padding: 0;
     outline: none;
-    border:none;
+    border: none;
+    /*兼容ie6*/
+    background: none;
 }
+
 a {
     text-decoration: none;
     color: #656565;
-    font-weight:bold;
+    font-weight: bold;
 }
+
 .fl {
     float: left;
 
@@ -24,6 +28,7 @@ a {
 .fr {
     float: right;
 }
+
 .clearfix:after {
     content: ".";
     display: block;
@@ -31,4 +36,7 @@ a {
     clear: both;
     visibility: hidden;
 }
-.clearfix {display: inline-block;}
+
+.clearfix {
+    display: inline-block;
+}
