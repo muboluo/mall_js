@@ -114,6 +114,64 @@
     padding-right: 29px;
 }
 
+/**
+下导航
+ */
+.navBox {
+
+    height: 35px;
+    background-color: #1d7ad9;
+    color: #FFFFFF;
+
+}
+
+/**
+下导航 商品分类
+ */
+.shopClass {
+    width: 190px;
+    line-height: 35px;
+
+    text-align: left;
+    /**
+    注意，会留下后患
+     */
+
+
+}
+
+.shopClass i {
+    width: 11px;
+    height: 7px;
+    overflow: hidden;
+    background: url("../img/icon/icon_triangle_down.png") left center no-repeat;
+    display: inline-block;
+    margin-left: 11px;
+
+}
+
+.nav .shopClass {
+    font-family: "Microsoft YaHei UI", "微软雅黑";
+
+}
+
+.nav {
+    line-height: 35px;
+}
+.nav li {
+    float: left;
+}
+.nav a {
+    height: 35px;
+    display: inline-block;
+    padding: 0 25px;
+    color: #FFFFFF;
+}
+.nav .active {
+    background-color: #4593fd;
+
+}
+
 
 
 
