@@ -195,10 +195,16 @@
     padding: 14px 10px;
     border-bottom: #3487f2 solid 1px;
     border-top: #5aa1fe solid 1px;
+    border-bottom: #5aa1fe solid 1px;
 
 }
 
 .shopClass_item dt {
+    height: 22px;
+    background: url("../img/icon/icon_goods_type_more.png") right center no-repeat;
+}
+
+.shopClass_item dd {
     height: 22px;
 }
 
@@ -210,12 +216,49 @@
 .shopClass_item .aLink {
     width: 48px;
     height: 20px;;
-    background-color: blue;
     text-align: center;
     line-height: 20px;
     text-decoration: underline;
+    background: url("../img/icon/icon_phone_typeselect_circle.png") left center no-repeat;
 }
 
+/**
+弹出的菜单框
+ */
+.showClass_list {
+    width: 568px;
+    height: 378px;
+    border: #cccccc solid 1px;
+    position: absolute;
+    left: 190px;
+    top: 35px;
+
+}
+.showClass_list_padding {
+    padding: 5px 10px;
+
+}
+.shopList_item {
+    padding: 10px 0;
+    border-bottom: #cccccc solid 1px;
+
+}
+.shopList_item dt {
+    color: #4b87d9;
+    font-weight: bold;
+    height: 24px;;
+    line-height: 24px;
+}
+
+.shopList_item dd {
+    padding-left: 68px;
+    margin-top: -24px;
+    line-height: 24px;
+}
+.shopList_item dd a {
+    margin-left: 12px;
+
+}
 
 
 
