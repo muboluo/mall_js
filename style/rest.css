@@ -29,6 +29,14 @@ a {
     float: right;
 }
 
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
 .clearfix:after {
     content: ".";
     display: block;
