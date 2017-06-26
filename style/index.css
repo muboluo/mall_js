@@ -198,6 +198,7 @@
     border-bottom: #5aa1fe solid 1px;
 
 }
+
 .shopClass_item a:hover {
     text-decoration: underline;
 }
@@ -233,9 +234,11 @@
     margin-left: 1px;
 
 }
+
 .shopClass_item_active a {
     color: #000;
 }
+
 .shopClass_item_active .aLink {
     color: white;
     text-decoration: none;
@@ -244,6 +247,7 @@
 .shopClass_item_active dt {
     background: none;
 }
+
 /**
 弹出的菜单框
  */
@@ -288,8 +292,8 @@
 .shopList_links {
     padding: 15px 0;
 
-
 }
+
 .shopList_links a {
     color: white;
     background-color: #2785e6;
@@ -300,6 +304,7 @@
     padding: 0 14px 0 8px;
     margin-right: 10px;
 }
+
 .shopList_links span {
     width: 11px;
     height: 7px;
@@ -312,12 +317,35 @@
 bannner 部分
  */
 .banner_bar {
-    width: 811px;;
+    width: 810px;
     height: 326px;
+    float: right;
+    position: relative;
+    overflow: hidden;
+}
+
+/**
+我得让他动？？？？
+ */
+.imgBox {
+    width: 1620px;
+    height: 326px;
+    position: absolute;
+    /*绝对定位的数值，必须要有x轴和y轴 */
+    left: 0;
+    top: 0;
 
 }
 
+.imgBox li {
+    float: left;
+}
 
+.imgBox img {
+    width: 810px;
+    height: 326px;
+    display: block;
+}
 
 
 
